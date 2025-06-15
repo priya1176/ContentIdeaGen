@@ -1,0 +1,32 @@
+# 👉 Node.js dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# 👉 React build output (Vite or CRA)
+client/dist/
+client/build/
+
+# 👉 Logs
+*.log
+logs/
+npm-debug.log*
+
+# 👉 dotenv files
+.env
+.env.local
+server/.env
+client/.env
+
+# 👉 Cache
+.cache/
+*.cache
+client/.vite/
+
+# 👉 Editor files
+.vscode/
+.idea/
+
+# 👉 OS specific
+.DS_Store
+Thumbs.db
