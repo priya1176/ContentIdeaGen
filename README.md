@@ -51,4 +51,18 @@ A full-stack web app that helps users generate creative content ideas, captions,
 ```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+Frontend
+cd ..content-idea-assistant
+npm install
+npm run dev
+Backend
+create .env file and configure
+PORT
+GROQ_API_KEY
+MONGO_URI
+cd ..server
+npm install
+npm start
+
+
 
