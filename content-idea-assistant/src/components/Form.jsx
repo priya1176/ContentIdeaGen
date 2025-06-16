@@ -26,7 +26,7 @@ const Form = () => {
     setSaveMessage("");
 
     try {
-      const response = await axios.post("http://localhost:5000/api/generate-idea", {
+      const response = await axios.post("https://contentideagen-1.onrender.com/api/generate-idea", {
         topic,
         niche,
       });
@@ -34,7 +34,7 @@ const Form = () => {
       setResult(response.data);
 
       try {
-        await axios.post("http://localhost:5000/idea/save", {
+        await axios.post("https://contentideagen-1.onrender.com/idea/save", {
           topic,
           niche,
           ...response.data,
